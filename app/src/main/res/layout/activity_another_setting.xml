@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다양한 기능 설정"
+        android:textSize="24sp"
+        android:paddingBottom="16dp" />
+
+    <!-- 초기화면으로 돌아가는 버튼 -->
+    <Button
+        android:id="@+id/button_back_to_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="초기화면으로 돌아가기"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- GPS 위치 확인 버튼 -->
+    <Button
+        android:id="@+id/button_get_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="현재 위치 확인"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 위치 정보를 표시할 텍스트 뷰 -->
+    <TextView
+        android:id="@+id/text_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="위치 정보가 여기에 표시됩니다"
+        android:paddingTop="16dp" />
+
+</LinearLayout>
